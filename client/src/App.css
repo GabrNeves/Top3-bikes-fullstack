@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+/* .hero{
+  background-image: url('../public/images/adevinta_bikeee.png');
+  max-height: 100%;
+  max-width: 100vw;
+} */
+
+.container-hero {
+  background-image: url('../public/images/adevinta_bikeee.png');
+  background-position: center;
+  min-height: 500px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  max-width: 100vw;
+  max-height: 100%;
+  background-size: cover;
+  
+}
+
+.title {
+  position: relative;
+  top: -20rem;
+  color: white;
+  font-size: 3rem;
+}
