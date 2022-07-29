@@ -53,8 +53,8 @@ describe("product controller", () => {
         ID: 412,
         Make: "One",
         Model: "Two",
-        Price: 222,
-        UserID: 212,
+        // Price: 222,
+        // UserID: 212,
         Date: new Date("2022-05-02"),
       });
       expect(res.status).toBe(400)

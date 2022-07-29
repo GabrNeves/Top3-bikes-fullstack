@@ -17,6 +17,7 @@ export const createNewProduct = async (req: Request, res: Response, next: NextFu
   try {
     res.json(await ProductServices.createProduct(req.body))
   } catch (error) {
-    console.log(error)
+    console.log(error);
+    res.sendStatus(400);
   }
 }
