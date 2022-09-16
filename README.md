@@ -1,16 +1,16 @@
 # Project intro
 
-The project was created using **mongoDB Atlas** in order to store the database. Since this project was sent in a ZIP file, the `.env` file should be comming with it. However, if something went wrong, this is the way that the `.env` file looks like:  
-`DATABASE_URL=`
+The project was created using **mongoDB Atlas** in order to store the database. The `.env` file should looks like:  
+`DATABASE_URL=+mongodb...`
 
 # How to run this application
 
-### - Navigate to the backend folder `.\adevinta\api`
+### - Navigate to the backend folder `.\api`
 ### - Use the package manager of your choice (npm or yearn) to install and run the server, as below:
 ```bash
 npm install && npm start
 ```
-### Navigate to the frontend folder `.\adevinta\client` and again, install and run it:
+### Navigate to the frontend folder `.\client` and again, install and run it:
 ```bash
 npm install && npm start
 ```
@@ -33,11 +33,3 @@ If I had more time to work on the project, I would implement the following featu
 ### - Cover 100% of the application with unit tests
 ### - Add further methods (post, patch, delete) and users permission
 ### - Use SQL instead NoSQL to deal with DB
-
-</br>
-</br>
-# Assignment Feedback
-
-
-
-
